@@ -1,0 +1,15 @@
+
+{
+  "name": "coursera_tarea",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ns run android",
+    "build": "ns build"
+  },
+  "dependencies": {
+    "@angular/core": "~14.0.0",
+    "@nativescript/angular": "~14.0.0",
+    "tns-core-modules": "~7.0.0",
+    "rxjs": "~7.5.0"
+  }
+}

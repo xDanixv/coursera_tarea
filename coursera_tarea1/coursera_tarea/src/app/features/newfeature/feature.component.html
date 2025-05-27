@@ -1,0 +1,8 @@
+
+<StackLayout>
+  <Label [text]="androidMessage" class="message" *ngIf="androidMessage"></Label>
+  <Label text="Lista de items:" class="title"></Label>
+  <StackLayout *ngFor="let item of items">
+    <Label [text]="item"></Label>
+  </StackLayout>
+</StackLayout>
